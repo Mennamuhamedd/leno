@@ -1,0 +1,70 @@
+/* Colors: #E5007D - #C0DF13 - #656565*/
+
+/* Main Style */
+@font-face {
+  font-family: "ArbFONTS";
+  src: url("../font/ArbFONTS-GE-SS-Text-Light-Italic.otf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "ArbFONTS";
+  src: url("../font/ArbFONTS-GE-SS-Text-Bold.otf");
+  font-weight: 900;
+  font-style: bold;
+}
+@font-face {
+  font-family: "ArbFONTS";
+  src: url("../font/ArbFONTS-GE-SS-Text-Medium.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ArbFONTS";
+  src: url("../font/ArbFONTS-GE_SS_TEXT_LIGHT.otf");
+  font-style: light;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: ArbFONTS, Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+a {
+  color: #656565;
+  text-decoration: none;
+}
+
+/*Navbar*/
+#nav :hover {
+  color: #e5007d;
+  position: static;
+  background-color: #fff;
+}
+/*Footer*/
+footer {
+  padding-top: 4rem;
+}
+footer span::before {
+  content: "•";
+  color: rgb(192, 223, 19);
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+footer h6 {
+  color: #e5007d;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #e5007d;
+}
